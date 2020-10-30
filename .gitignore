@@ -1,11 +1,19 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,prepros
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,prepros
+# Created by https://www.toptal.com/developers/gitignore/api/windows,vscode,prepros
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,vscode,prepros
 
 ### Prepros ###
 # Config Prepros files to ignore
 prepros.cfg
 prepros-6.config
 prepros.config
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -33,4 +41,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,prepros
+# End of https://www.toptal.com/developers/gitignore/api/windows,vscode,prepros
