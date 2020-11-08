@@ -66,6 +66,52 @@ img {
   vertical-align: top;
 }
 
-h1 {
-  font-size: 14px;
+.wrapper {
+  width: 93%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #212429;
+  height: 345px;
+  position: relative;
+}
+
+.header__line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu-burger {
+  color: #999999;
+  font-size: 30px;
+  justify-content: flex-start;
+}
+
+.header__logo {
+  position: absolute;
+  top: 10px;
+  left: 45%;
+}
+
+.header-button {
+  padding: 20px;
+  display: inline-block;
+  border-left-style: solid;
+  border-left-color: #3c3c3c;
+  border-left-width: 2px;
+  border-right-style: solid;
+  border-right-color: #3c3c3c;
+  border-right-width: 2px;
+}
+.header-button :hover {
+  opacity: 0.5;
+}
+
+.header__search-and-social {
+  display: flex;
+  justify-content: flex-end;
+}
+.header__search-and-social :not(:first-child) {
+  border-left: none;
 }

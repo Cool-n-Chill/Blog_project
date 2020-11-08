@@ -1,6 +1,57 @@
 //Null
 @import "null.scss";
+// Variables
+// Color variables
+$classic-gray: #212429;
+$classic-white: #f9f9fb;
+$signup-white: #f7f7f7;
+$footer-gray: #17191c;
 
-h1 {
-    font-size: 14px;
+$title-txt: #212121;
+$subtitle-txt: #999999;
+$txt: #464646;
+// Styles
+.wrapper {
+    width: 93%;
+    margin: 0 auto;
+}
+.header {
+    background-color: $classic-gray;
+    height: 345px;
+    position: relative;
+}
+.header__line{
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu-burger {
+    color: $subtitle-txt;
+    font-size: 30px;
+    justify-content: flex-start;
+}
+.header__logo{
+    position: absolute;
+    top: 10px;
+    left: 45%;
+}
+.header-button {
+    padding: 20px;
+    display: inline-block;
+    border-left-style: solid;
+    border-left-color: #3c3c3c;
+    border-left-width: 2px;
+    border-right-style: solid;
+    border-right-color: #3c3c3c;
+    border-right-width: 2px;
+    :hover{
+        opacity: 0.5;;
+    }
+    
+}
+.header__search-and-social{
+    display: flex;
+    justify-content: flex-end;
+    :not(:first-child){
+        border-left: none;
+    }
 }
